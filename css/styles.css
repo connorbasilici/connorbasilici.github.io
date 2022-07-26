@@ -1,4 +1,6 @@
-div {
+/* div, body and image styles */ 
+
+div { 
     width:auto;
     height:auto;
     padding: 25px 50px 75px 100px;
@@ -14,6 +16,8 @@ img {
     height: fit-content;
 	width: fit-content;
 }
+
+/* Header styles */ 
 
 h1 {
     color: rgb(24, 53, 58);
@@ -33,11 +37,15 @@ h3 {
     font-size: 30px;
 }
 
+/* Paragraph style */
+
 p {
     color: rgb(24, 53, 58);
     font-family: sans-serif;
     font-size: 25px;
 }
+
+/* List styles */
 
 ol {
     color: rgb(24, 53, 58);
@@ -51,11 +59,14 @@ ul {
     font-size: 25px;
 }
 
+/* Nav and link styles */
+
 nav {
     color: rgb(24, 53, 58);
     font-family: sans-serif;
-    font-size: 25px;
-    text-decoration: none;
+    font-size: 30px;
+    justify-content: center;
+    margin: auto;
 }
 
 a {
@@ -78,6 +89,8 @@ a:active {
     color: rgb(24, 53, 58);
 }
 
+/* classes */
+
 .text-centered {
     text-align: center;
     list-style-position: inside;
@@ -90,7 +103,7 @@ a:active {
     width: 50%;
 }
 
-.dark-background {
-    background-color: #1E1E1E;
+.colorful-background {
+    background-color: rgb(190,76,66);
     color: white;
   }
