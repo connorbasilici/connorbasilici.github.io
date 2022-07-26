@@ -8,7 +8,7 @@ div {
 
 body {
     margin: auto;
-    background-color: rgba(29, 54, 79, 0.482);
+    background-color: rgba(255, 255, 255, 0.482);
 }
 
 img {
@@ -27,13 +27,13 @@ h1 {
 
 h2 {
     color: rgb(24, 53, 58);
-    font-family: "Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
 }
 
 h3 {
     color: rgb(24, 53, 58);
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
 
@@ -41,7 +41,7 @@ h3 {
 
 p {
     color: rgb(24, 53, 58);
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
 
@@ -49,13 +49,13 @@ p {
 
 ol {
     color: rgb(24, 53, 58);
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
 
 ul {
     color: rgb(24, 53, 58);
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
 
@@ -82,7 +82,7 @@ a:visited {
 }
 
 a:hover { 
-    color: rgb(230, 206, 101);
+    color: rgba(7, 9, 61, 0.774);
 }
 
 a:active { 
