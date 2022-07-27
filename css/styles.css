@@ -13,8 +13,8 @@ body {
 
 img {
     margin: auto;
-    height: fit-content;
-	width: fit-content;
+    /* height: fit-content;
+	width: fit-content; */
 }
 
 nav {
