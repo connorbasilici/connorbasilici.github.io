@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0"> <!-- setting content width to device width-->
+        <title>Connor Basilici</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"
+        />
+    </head>
+
+    <header class="colorful-background"> <!-- header and footer both use the colorful background class, to break up the page-->
+        <div class="text-centered"> <!-- applying the text centered style class to entire header-->
+            <h1>Email Me!</a></h1>
+            <h2><a href="/index.html">Home</a</h2> 
+        </div>
+    </header>
+
+    <body>
+        <form>
+            <fieldset>
+                <div>
+                    <label for="name">Name:</label>
+                    <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="Enter your full name"/>
+                </div>
+                <div>
+                    <label for="name">Email:</label>
+                    <input
+                    id="email"
+                    type="text"
+                    name="email"
+                    placeholder="Enter your email address"/>
+                </div>
+            </fieldset>
+            <div>
+                <textarea
+                id="form-message"
+                name="message"
+                autofocus="on"
+                required
+                maxlength="200"
+                placeholder="How can I help you?"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
